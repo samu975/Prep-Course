@@ -187,7 +187,8 @@ function todosIguales(arreglo) {
   } else {
     return false
   }
-
+  
+  //En vez de every se puede usar un ciclo for comparando el primer numero con los demas, si es alguno diferente dira false 
   
 } 
 
@@ -243,7 +244,8 @@ function breakStatement(numero) {
   var suma = numero;
   for (var i = 0; i < 10; i++) {
     suma = suma + 2 ;
-    if (suma === i) break;
+    if (suma === i) 
+      break;
     else {
       array.push(suma);
     }
